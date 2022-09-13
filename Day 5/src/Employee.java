@@ -31,8 +31,8 @@ public class Employee implements Cloneable{
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
-		//return super.hashCode();
-		return this.empId*8;
+		return super.hashCode();
+		//return this.empId*8;
 	}
 
 	@Override

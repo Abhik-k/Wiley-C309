@@ -7,6 +7,7 @@ public class EmployeeApp {
 		System.out.println("Implementation of toString() method:");
 		System.out.println(employee1);
 		
+		//Shallow copying
 		Employee employee2 =employee1;
 		
 		System.out.println("Use of == :");
@@ -26,12 +27,19 @@ public class EmployeeApp {
 		else {
 			System.out.println("Object are different");
 		}
+		System.out.println("Equals method");
+		if(employee2.equals(employee4)) {
+			System.out.println("Objects are same");
+		}
+		else {
+			System.out.println("Object are different");
+		}
 		
 		//Implementation of hashCode() method:
 		System.out.println("HashCode");
-		System.out.println(employee1.hashCode());
-		System.out.println(employee2.hashCode());
-		System.out.println(employee3.hashCode());
+		System.out.println("Employee 1:-"+employee1.hashCode());
+		System.out.println("Employee 2:-"+employee2.hashCode());
+		System.out.println("Employee 3:-"+employee3.hashCode());
 		
 		//Using Clone
 		System.out.println("Using Clone");
