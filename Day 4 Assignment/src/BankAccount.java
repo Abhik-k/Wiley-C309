@@ -3,6 +3,7 @@ public class BankAccount {
 	private int accountId;
 	private String accountHolderName;
 	private double openingBalance,currentBalance,totalBalance;
+
 	
 	public int getAccountId() {
 		return accountId;
